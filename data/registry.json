@@ -1,0 +1,297 @@
+[
+  {
+    "version": "1.0.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID"
+      ],
+      "files": [
+        "governanceService.js",
+        "notionService.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "body-parser",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-13T08:06:53.406Z",
+    "notes": "Initial stable baseline"
+  },
+  {
+    "version": "2.0.0",
+    "stable": false,
+    "snapshot": {
+      "env": [
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/runtime-contract.json",
+        "services/governanceService.js",
+        "services/notionService.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "body-parser",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-13T09:34:42.073Z",
+    "notes": "Manual approval for MAJOR change"
+  },
+  {
+    "version": "2.1.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/governanceService.js",
+        "services/notionService.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "body-parser",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-13T09:58:17.028Z",
+    "notes": "Auto-approved MINOR change"
+  },
+  {
+    "version": "2.2.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID",
+        "NOTION_GOVERNANCE_DB_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/governanceService.js",
+        "services/notionService.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "body-parser",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-13T11:16:27.121Z",
+    "notes": "Auto-approved MINOR change"
+  },
+  {
+    "version": "2.3.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID",
+        "NOTION_GOVERNANCE_DB_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/governanceService.js",
+        "services/notionService.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "@octokit/rest",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-13T14:47:33.460Z",
+    "notes": "Auto-approved MINOR change"
+  },
+  {
+    "version": "2.4.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GITHUB_TOKEN",
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID",
+        "NOTION_GOVERNANCE_DB_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/governanceService.js",
+        "services/notionService.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "@octokit/rest",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-13T14:49:10.017Z",
+    "notes": "Auto-approved MINOR change"
+  },
+  {
+    "version": "2.5.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GITHUB_TOKEN",
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID",
+        "NOTION_GOVERNANCE_DB_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/githubService.js",
+        "services/governanceService.js",
+        "services/notionService.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "@octokit/rest",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-13T15:00:35.033Z",
+    "notes": "Auto-approved MINOR change"
+  },
+  {
+    "version": "2.6.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GITHUB_TOKEN",
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID",
+        "NOTION_GOVERNANCE_DB_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/githubService.js",
+        "services/governanceService.js",
+        "services/gpt1Service.js",
+        "services/gpt2Service.js",
+        "services/gpt3Service.js",
+        "services/notionService.js",
+        "services/orchestrator.js",
+        "services/testRoute.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "@octokit/rest",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-16T07:33:30.551Z",
+    "notes": "Auto-approved MINOR change"
+  },
+  {
+    "version": "3.0.0",
+    "stable": false,
+    "snapshot": {
+      "env": [
+        "GITHUB_TOKEN",
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID",
+        "NOTION_GOVERNANCE_DB_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/githubService.js",
+        "services/governanceService.js",
+        "services/gpt1Service.js",
+        "services/gpt2Service.js",
+        "services/gpt3Service.js",
+        "services/notionService.js",
+        "services/orchestrator.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "@octokit/rest",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-16T07:42:41.519Z",
+    "notes": "Manual approval for MAJOR change"
+  },
+  {
+    "version": "3.1.0",
+    "stable": true,
+    "snapshot": {
+      "env": [
+        "GITHUB_TOKEN",
+        "GPT_API_KEY",
+        "NOTION_API_TOKEN",
+        "NOTION_DATABASE_ID",
+        "NOTION_GOVERNANCE_DB_ID"
+      ],
+      "files": [
+        "architecture/communication-dictionary.json",
+        "architecture/core-system-blueprint.json",
+        "architecture/dictionary-engine.json",
+        "architecture/runtime-contract.json",
+        "services/githubService.js",
+        "services/governanceService.js",
+        "services/gpt1Service.js",
+        "services/gpt2Service.js",
+        "services/gpt3Service.js",
+        "services/notionGovernanceWriter.js",
+        "services/notionService.js",
+        "services/orchestrator.js"
+      ],
+      "dependencies": [
+        "@notionhq/client",
+        "@octokit/rest",
+        "dotenv",
+        "express"
+      ]
+    },
+    "timestamp": "2026-02-16T11:18:02.174Z",
+    "notes": "Auto-approved MINOR change"
+  }
+]

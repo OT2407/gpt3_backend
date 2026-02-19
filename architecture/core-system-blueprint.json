@@ -1,0 +1,61 @@
+{
+  "system_identity": {
+    "name": "Universal AI System Blueprint",
+    "version": "1.0.0",
+    "purpose": "Reusable governance-based AI system structure",
+    "philosophy": "Model-agnostic, version-controlled, state-aware",
+    "constraints": [
+      "No model-specific assumptions",
+      "All behavior governed by rules",
+      "Versioned evolution required"
+    ]
+  },
+
+  "governance_layer": {
+    "versioning": "semantic",
+    "severity_rules": {
+      "MAJOR": "Destructive or breaking change",
+      "MINOR": "Additive structural change",
+      "PATCH": "Internal refinement without structural change"
+    },
+    "approval_policy": {
+      "MAJOR": "manual_confirmation_required",
+      "MINOR": "auto_approve",
+      "PATCH": "auto_approve"
+    }
+  },
+
+  "execution_protocol": {
+    "output_rules": {
+      "full_file_required": true,
+      "no_partial_rewrites": true,
+      "step_order_mandatory": true,
+      "explanations_after_execution": true
+    },
+    "communication_flow": [
+      "detect_change",
+      "classify_severity",
+      "apply_policy",
+      "execute",
+      "log_version",
+      "post_execution_explanation"
+    ]
+  },
+
+  "state_memory_layer": {
+    "snapshot_required": true,
+    "registry_tracking": true,
+    "store": [
+      "system_versions",
+      "architecture_snapshots",
+      "change_logs"
+    ]
+  },
+
+  "model_adapter_layer": {
+    "provider": "abstract",
+    "model": "abstract",
+    "temperature": "configurable",
+    "replaceable": true
+  }
+}

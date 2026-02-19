@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "enforcement": {
+    "strict_prefix": ">>",
+    "modes_required_in_strict": true,
+    "allowed_modes": ["ARCH", "ENG", "ANL", "EVO"]
+  },
+  "flags": ["FF", "SE", "NP", "AE", "SD", "MIN", "EXPAND"],
+  "behavior": {
+    "strict_mode_blocks_execution": true,
+    "normal_mode_allows_free_text": true
+  }
+}

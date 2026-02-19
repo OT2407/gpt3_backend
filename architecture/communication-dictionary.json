@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "modes": {
+    "ARCH": "Architect mode (system-level design only)",
+    "ENG": "Engineering mode (implementation only)",
+    "ANL": "Analysis mode (diagnosis only)",
+    "EVO": "Evolution mode (strategic branching analysis)"
+  },
+  "execution_rules": {
+    "FF": "Full file required",
+    "NF": "No file rewrite unless necessary",
+    "SE": "Short execution steps only",
+    "AE": "Explanation after execution",
+    "NP": "No pre-explanation",
+    "SD": "Show diff only"
+  },
+  "governance_actions": {
+    "GV-AUTO": "Auto approve change",
+    "GV-MAJOR": "Manual confirmation required",
+    "GV-LOCK": "Block startup on violation",
+    "GV-AUDIT": "Write audit log"
+  },
+  "communication_controls": {
+    "STRICT": "No drift allowed",
+    "EXPAND": "Elaborate explanation allowed",
+    "MIN": "Minimal response only"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "mode_required": true,
+  "allowed_modes": [
+    "ARCHITECT",
+    "ENGINEERING"
+  ],
+  "engineering_rules": {
+    "full_file_required": true,
+    "no_partial_logic": true,
+    "step_sequence_required": true,
+    "explanation_after_execution": true,
+    "no_pre_explanation": true
+  },
+  "architect_rules": {
+    "system_level_only": true,
+    "no_code_generation": true,
+    "blueprint_format_required": true
+  }
+}
